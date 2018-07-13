@@ -11,6 +11,10 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(move)
-  move.to_i
+  integer_move = move.to_i - 1
 
+end
+
+def move(board, index, value)
+  board[index] = value
 end
